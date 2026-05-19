@@ -1,0 +1,14 @@
+nodejs版本切换, 跟随项目配置
+
+1. 在cursor中
+在settings.json中增加以下配置
+"terminal.integrated.env.windows": {
+  "PATH": "D:\\Asoftware\\work\\F2E\\nodejs-16;${env:PATH}"
+}
+然后在.nvmrc中写16
+
+2. 在idea中
+打开 settings -> Tools -> Terminal
+在Environment variables（环境变量)中加
+PATH  D:\Asoftware\work\F2E\nodejs-16;%PATH%
+
