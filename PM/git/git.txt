@@ -5,3 +5,6 @@ git忽略文件
 git update-index --skip-worktree hy-hrm/src/main/resources/application-dev.yml  hy-hrm/src/main/resources/application.yml
 git重新跟踪文件
 git update-index --no-skip-worktree src/app/main/login/main-login.component.html
+
+查看当前git仓库地址
+git remote -v
