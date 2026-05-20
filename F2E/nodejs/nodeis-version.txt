@@ -1,4 +1,4 @@
-nodejs版本切换, 跟随项目配置
+node版本切换, 跟随项目配置
 
 1. 在cursor中
 在settings.json中增加以下配置
