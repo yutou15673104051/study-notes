@@ -13,4 +13,4 @@ mvn help:effective-pom
 在输出中搜索 <repositories>标签
 可以找到maven配置中的仓库地址
 
-测试提交暂存maven
+测试提交
