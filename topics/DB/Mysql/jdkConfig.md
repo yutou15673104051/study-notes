@@ -1,4 +1,6 @@
-增加项目中指定jdk版本的配置
+
+# 增加项目中指定jdk版本的配置
+
 {
   "java.jdt.ls.java.home": "D:\\Asoftware\\work\\JDK\\JDK21",
   "java.configuration.runtimes": [

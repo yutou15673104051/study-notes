@@ -1,4 +1,4 @@
-重置mysql 数据库 root账号 密码
+# 重置mysql 数据库 root账号 密码
 
 services.msc 打开服务管理器, 关闭mysql服务
 
@@ -16,7 +16,7 @@ sc qc "mysql服务名" 查看 MySQL 服务的详细信息
 
 打开管理员cmd进入mysqlbin文件目录 cd /d D:\Asoftware\work\Tools\PG\mysql\bin
 
-运行mysqld --console --skip-grant-tables --shared-memory --console --datadir="C:/ProgramData/MySQL/MySQL Server 8.0/Data" 
+运行mysqld --console --skip-grant-tables --shared-memory --console --datadir="C:/ProgramData/MySQL/MySQL Server 8.0/Data"
 
 另外打开一个管理员cmd进入bin文件
 
