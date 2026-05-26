@@ -1,4 +1,4 @@
-# 重置mysql 数据库 root账号 密码
+# 重置mysql数据库root账号密码
 
 services.msc 打开服务管理器, 关闭mysql服务
 
