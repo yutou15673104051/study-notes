@@ -1,5 +1,7 @@
 
 # cursor中配置项目重启
+
+## 后台启动
     {
       "type": "java",
       "name": "启动 Spring Boot",
@@ -16,3 +18,7 @@
 开启 forceBuildBeforeLaunch: true F5 前由 JLS 做增量编译，不要每次启动前都执行mvn compile
 
 参考这种做法来设计项目启动的配置
+
+## npm install --legacy-peer-deps
+
+1. 若npm -v 是 7、8、9 或 10，就会默认严格校验 peer dependency，这也解释了你为什么需要加 npm install --legacy-peer-deps
